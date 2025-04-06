@@ -14,3 +14,26 @@
     font-size: 20px;
     color: #fff;
 }
+.fun-text{
+     font-size: 30px;
+    color: #9D4EDD;  
+}
+.link-hs{
+    color: #fff;
+    transition: color 0.7s ease;
+}
+.link-hs:hover{
+    color: #9D4EDD;
+}
+.pic{
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.img-container {
+    position: absolute;
+    right: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+}
