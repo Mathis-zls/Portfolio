@@ -1,0 +1,46 @@
+.project-ueberschrift{
+    color: #fff;
+    text-align: center ;
+    font-size: 40px;
+}
+.project-description{
+    color: #fff;
+    font-size: 20px;
+}
+.project-tools{
+    color: rgba(255, 255,255,0.8);
+}
+.project-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 50px;
+}
+
+.project {
+    border: 2px solid #9D4EDD;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+    position: relative; /* Add this to enable proper positioning inside */
+}
+
+.project:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+    min-height: 200px; /* Set a minimum height for the container */
+}
+
+.img-container-portfolio {
+    position: absolute; /* Position this absolutely */
+    bottom: 10px; /* Distance from bottom */
+    right: 10px; /* Distance from right */
+}
+
+.img-link-portfolio {
+    width: 24px; /* Control the size of the logo */
+    height: auto;
+}
