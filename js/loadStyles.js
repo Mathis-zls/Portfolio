@@ -13,9 +13,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const cssFiles = [
         'css/header.css',
         'css/hero.css',
+        'css/skills.css',
         'css/about.css',
         'css/portfolio.css',
-        'css/skills.css',
         'css/contact.css',
         'css/footer.css'
     ];

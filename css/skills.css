@@ -1,0 +1,30 @@
+    .skills-icons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 50px;
+      background-color:  #240046;
+      padding: 10px;
+      margin-bottom: 30px;
+    }
+
+    .skills-icons img {
+      height: 150px;
+      width: auto;
+      transition: transform 0.3s ease;
+    }
+
+    .skills-icons img:hover {
+      transform: scale(1.1);
+    }
+
+     .skills-section{
+      text-align: center;
+      padding: 40px 40px;
+    }
+
+    .text-skill{
+        font-size: 50px;
+        color: #fff;
+        text-align: left;
+    }
