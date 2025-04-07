@@ -26,27 +26,28 @@
     border: 2px solid #9D4EDD;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     border-radius: 10px;
-    position: relative; /* Add this to enable proper positioning inside */
+    position: relative; 
+    box-shadow: 0 0 15px rgba(154, 77, 255, 0.5); 
 }
 
 .project:hover {
     transform: translateY(-10px);
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 25px rgba(154, 77, 255, 0.8), 0 0 40px rgba(154, 77, 255, 0.3);
 }
 
 .project-content {
     display: flex;
     flex-direction: column;
-    min-height: 200px; /* Set a minimum height for the container */
+    min-height: 200px; 
 }
 
 .img-container-portfolio {
-    position: absolute; /* Position this absolutely */
-    bottom: 10px; /* Distance from bottom */
-    right: 10px; /* Distance from right */
+    position: absolute;
+    bottom: 10px; 
+    right: 10px; 
 }
 
 .img-link-portfolio {
-    width: 24px; /* Control the size of the logo */
+    width: 24px; 
     height: auto;
 }
