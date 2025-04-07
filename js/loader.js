@@ -9,9 +9,9 @@ const loadSection = (id, path) => {
 
 // Load each section
 loadSection('header', 'components/header.html');
+loadSection('sidebar', 'components/sidebar.html');
 loadSection('hero','components/hero.html');
 loadSection('skills', 'components/skills.html');
-loadSection('about', 'components/about.html');
 loadSection('projects', 'components/projects.html');
 loadSection('contact', 'components/contact.html');
 loadSection('footer', 'components/footer.html');

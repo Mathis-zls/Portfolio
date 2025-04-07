@@ -5,7 +5,8 @@
       gap: 50px;
       background-color:  #240046;
       padding: 10px;
-      margin-bottom: 30px;
+      margin: 0px 30px 30px 30px;
+      border-radius: 50px;
     }
 
     .skills-icons img {
@@ -26,5 +27,5 @@
     .text-skill{
         font-size: 50px;
         color: #fff;
-        text-align: left;
+        text-align: center;
     }

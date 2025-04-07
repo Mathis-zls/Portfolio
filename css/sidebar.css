@@ -1,0 +1,41 @@
+.side-nav{
+  position: fixed;
+  left: 1%;
+  top: 90%;
+  transform: translateY(-50%);
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+  width: auto;
+  height: auto;
+}
+
+.social-icons a {
+  display: block;
+}
+.social-icons img{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.social-icons img:hover{
+    transform: translateY(-5px);
+}
+
+.vertical-line {
+  width: 3px;
+  height: 20vh; 
+  background-color: #9D4EDD; 
+  margin-top: 10px;
+}
+.social-icons a img {
+  width: 24px; 
+  height: 24px;
+  object-fit: contain;
+}
