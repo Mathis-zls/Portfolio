@@ -35,7 +35,7 @@ This project is licensed under the [LICENSE](LICENSE) see the LICENSE file for d
 
 Feel free to reach out to me for any questions or collaboration opportunities:
 
-- Email: mathis-zls.@mail.de
-- LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
+- Email: mathis-zls@mail.de
+- LinkedIn: [Mathis Zizlsperger](https://www.linkedin.com/in/mathis-zizlsperger-06236735b/)
 
 ---
