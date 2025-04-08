@@ -32,20 +32,9 @@ p {
     margin-bottom: 15px;
 }
 
-.btn {
-    display: inline-block;
-    background-color: #f442f4;
-    color: white;
-    padding: 12px 30px;
-    border-radius: 30px;
-    text-decoration: none;
-    font-weight: 500;
-    transition: background-color 0.3s ease;
-}
 
-.btn:hover {
-    background-color: #3367d6;
-}
+
+
 
 /* Responsive Design */
 @media (max-width: 768px) {

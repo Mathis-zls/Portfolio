@@ -15,7 +15,6 @@ document.addEventListener('DOMContentLoaded', function() {
         'css/hero.css',
         'css/skills.css',
         'css/sidebar.css',
-        'css/about.css',
         'css/projects.css',
         'css/contact.css',
         'css/footer.css'
